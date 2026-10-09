@@ -1,0 +1,6 @@
+{
+  "name": "Contract PDF Clause & Risk Analyzer",
+  "description": "End-to-end AI contract analysis platform for uploading legal PDFs, extracting clauses, detecting risk levels, and viewing actionable mitigation insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

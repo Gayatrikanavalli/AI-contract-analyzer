@@ -1,0 +1,38 @@
+[
+  {
+    "id": "d822bb49-954f-4d54-b1cc-a645bbe1eb74",
+    "email": "gayatri@gmail.com",
+    "passwordSalt": "2369bfd1fc9c307ecd851e5ba2d7c938",
+    "passwordHash": "b789869a1d26a19419f4737578a716affd71e5b177ac4f3dca7a47c248c302980c9858528c153fbfc968c9bb4ad58e8c5adc0f60a47f20ec2a1cb0116b5787ad"
+  },
+  {
+    "id": "7932e2ed-5d5c-499c-b09a-0742ec3ae99e",
+    "email": "gayatrikanavalli75@gmail.com",
+    "passwordSalt": "907e06d4a5c9530d1552648167c53937",
+    "passwordHash": "78601dfaad48ead96df2d7ae18689360e5f83dec71d4d953ab36f34fdca95931ac57f84ca6f0d8b0e32bdbda07eccad7f1773e8787bd30fed93c156c604180e3"
+  },
+  {
+    "id": "a84ea0ae-49dc-4d01-ad6b-d544ec9cb973",
+    "email": "priya@gmail.com",
+    "passwordSalt": "f432897dca363265a096a2534514918c",
+    "passwordHash": "4c376fcfb5c8d69228764f4691aa169896f275b2897a7175a4dd9e6365873847e4092eb57c6df9cbb5f5be25efba648de8c865ecae72c91f33eacffc9015fbd0"
+  },
+  {
+    "id": "c90efcd5-faaf-4977-bb90-ecd55ba45bef",
+    "email": "teju@gmail.com",
+    "passwordSalt": "d51d4c16268bcedbb5bf79a8d118916b",
+    "passwordHash": "7997e3454ccf32876576bdb9f7f6e67188054be11bb5b7ddf1b07db73c5b485fa512a143a9ac5a360a636be70f049690ba28f1878fb54ec7ace4f434c39c8ddb"
+  },
+  {
+    "id": "80095338-3671-4d9a-b533-9ca03de92dae",
+    "email": "kanavalli75@gmail.com",
+    "passwordSalt": "32380b95b544674be670d01c2066ef35",
+    "passwordHash": "f55f5a3b884b4f2abd5148bcb1a676e8f2ce9b61dd6b4ab05937c0f33935dc8c73d9b0f11a3463741a05b658386bbc14d45c97ac53c0abf0b8addd1a9123b411"
+  },
+  {
+    "id": "8a1601a0-ac1f-462d-b772-9c2b704ca42d",
+    "email": "akhil@gmail.com",
+    "passwordSalt": "ea0d981379b71c57c8b50613a10105f8",
+    "passwordHash": "0c0e9a408757b0a66756b997b2953bed944d5d27f50a39c8b1e7147588e265ccb632a36c1a6a3ebcc7408bb47c6eeec6f413c1badfb8004de5b4f984d8900327"
+  }
+]

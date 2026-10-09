@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+button {
+  transition-property: color, background-color, border-color, box-shadow, transform;
+  transition-duration: 180ms;
+  transition-timing-function: ease;
+}
+
+button:not(:disabled):active {
+  transform: scale(0.98);
+}
+
+.interactive-button {
+  transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease,
+    box-shadow 180ms ease, transform 180ms ease;
+}
+
+.interactive-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px -10px rgb(15 23 42 / 0.55);
+}
+
+.interactive-button:active:not(:disabled) {
+  transform: translateY(0) scale(0.97);
+}
+
+.interactive-card {
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.interactive-card:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 10px 24px -16px rgb(15 23 42 / 0.45);
+}
+
+.interactive-row {
+  transition: background-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.interactive-row:hover {
+  transform: translateY(-1px);
+}
+
+.interactive-link {
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 3px;
+  transition: color 180ms ease, text-decoration-color 180ms ease;
+}
+
+.interactive-link:hover {
+  text-decoration-color: currentColor;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  button,
+  .interactive-button,
+  .interactive-card,
+  .interactive-row,
+  .interactive-link {
+    transition-duration: 0.01ms;
+  }
+
+  button:not(:disabled):active,
+  .interactive-button:hover:not(:disabled),
+  .interactive-button:active:not(:disabled),
+  .interactive-card:hover,
+  .interactive-row:hover {
+    transform: none;
+  }
+}
